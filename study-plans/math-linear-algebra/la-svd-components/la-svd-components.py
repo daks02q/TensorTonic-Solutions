@@ -1,0 +1,7 @@
+import numpy as np
+
+def svd(A):
+    """
+    Returns: tuple (U, s, Vt) where A = U @ diag(s) @ Vt.
+    """
+    return np.linalg.svd(A, full_matrices = False)
